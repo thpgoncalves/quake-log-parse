@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from log_parser import LogParser
+from logic.log_parser import LogParser
 import unittest
 
 class TestLogParser(unittest.TestCase):

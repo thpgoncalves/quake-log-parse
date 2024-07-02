@@ -1,5 +1,5 @@
-from log_parser import LogParser
-from report_generator import ReportGenerator
+from logic.log_parser import LogParser
+from logic.report_generator import ReportGenerator
 
 if __name__ == "__main__":
     log_parser = LogParser("games.log")
